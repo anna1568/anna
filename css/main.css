@@ -50,7 +50,6 @@ nav {
     box-sizing: border-box; 
     text-align: left;
 }
-
 .img-container {
     display: flex; /* Центрирование изображений */
     justify-content: center; /* Горизонтальное центрирование */
