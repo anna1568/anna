@@ -50,6 +50,9 @@ nav {
     box-sizing: border-box; 
     text-align: left;
 }
+text.courier {
+    face:"courier new";
+}
 .img-container {
     display: flex; /* Центрирование изображений */
     justify-content: center; /* Горизонтальное центрирование */
