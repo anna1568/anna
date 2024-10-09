@@ -1,3 +1,23 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/Century-Gothic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../fonts/Courier-New.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("../fonts/Candara.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
 header{
     text-align: center;
 }
@@ -50,9 +70,7 @@ nav {
     box-sizing: border-box; 
     text-align: left;
 }
-text.courier {
-    face:"courier new";
-}
+
 .img-container {
     display: flex; /* Центрирование изображений */
     justify-content: center; /* Горизонтальное центрирование */
@@ -75,6 +93,17 @@ text.courier {
     white-space: nowrap; 
 }
 
+.text_courier {
+    font-family: "courier new";
+}
+
+.text_gothic {
+    font-family: "century gothic";
+}
+
+.text_candara {
+    font-family: "candara";
+}
 .btn.btn-light {
     border-radius: 30pt;
     margin: 10pt;
